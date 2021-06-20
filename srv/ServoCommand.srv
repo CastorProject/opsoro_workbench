@@ -1,0 +1,6 @@
+#servo command service to the onohat
+
+uint8 id
+uint32 value
+---
+bool result

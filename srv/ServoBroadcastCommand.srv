@@ -1,0 +1,5 @@
+#send the 
+
+uint32[] command_list
+---
+bool result

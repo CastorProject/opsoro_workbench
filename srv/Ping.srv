@@ -1,0 +1,4 @@
+#this service perform ping connection to the ONOHAT board
+
+---
+bool result

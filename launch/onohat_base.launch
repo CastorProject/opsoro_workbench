@@ -1,0 +1,9 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+	<arg name="namespace" default="/onohat_controller"/>
+
+	<!--include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/-->
+	<group ns = "$(arg namespace)">
+		<node name="onohat_base" pkg="opsoro_workbench" type="onohat_base.py"/>
+	</group>
+</launch>

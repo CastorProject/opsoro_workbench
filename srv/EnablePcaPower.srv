@@ -1,0 +1,5 @@
+#this message enables the mosfet power interface for the PCA embedded in the ONOHAT
+
+bool value
+---
+bool result
